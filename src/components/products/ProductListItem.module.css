@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+}
+
+.imageContainer {
+  display: flex;
+  flex-grow: 1;
+}
+
+.image {
+  width: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.price {
+  flex-grow: 1;
+}
